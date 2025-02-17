@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "test": "jest",
     "start": "webpack serve --open --config ./webpack.config.js --env mode=dev",
     "lint": "eslint src/*.ts",
     "format": "prettier --write .",
     "ci:format": "prettier --check .",
     "prepare": "husky"
   },
+  "prepare": "node .husky/install.mjs",
   "devDependencies": {
     "@eslint/js": "^9.20.0",
     "eslint": "^9.20.1",
@@ -16,6 +18,7 @@
     "eslint-plugin-prettier": "^5.2.3",
     "globals": "^15.15.0",
     "husky": "^9.1.7",
+    "jest": "^29.7.0",
     "ts-loader": "^9.5.2",
     "typescript-eslint": "^8.24.0",
     "webpack": "^5.98.0",
