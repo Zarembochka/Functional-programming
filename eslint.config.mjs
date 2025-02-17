@@ -13,9 +13,9 @@ export default [
   prettierRecommended,
   {
     rules: {
-      'no-console': 'warn',
+      'no-console': 'error',
       'prettier/prettier': [
-        'warn',
+        'error',
       ]
     }
   }
