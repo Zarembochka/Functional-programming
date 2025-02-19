@@ -1,5 +1,5 @@
 import { describe, expect, test } from "@jest/globals";
-import { functionalMap } from "../../src/utils/index";
+import { functionalMap } from "../../src/index";
 
 describe("functional map function", () => {
     test("map an array for square values", () => {
