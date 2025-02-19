@@ -22,4 +22,11 @@ describe("linear fold utility", () => {
         const resultLinearFold = linearFold(arr, add, 0);
         expect(resultLinearFold).toBe(6);
     });
+
+    test("linear fold works on array with one element without initial value", () => {
+        const add = (a: number, b: number) => a + b;
+        const arr = [5];
+        const resultLinearFold = linearFold(arr, add);
+        expect(resultLinearFold).toBe(5);
+    });
 });
