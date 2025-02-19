@@ -1,5 +1,5 @@
 import { describe, expect, test } from "@jest/globals";
-import { linearFold } from "../../src/utils/index";
+import { linearFold } from "../../src/index";
 
 describe("linear fold utility", () => {
     test("linear fold works on number array with initial value", () => {
