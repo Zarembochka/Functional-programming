@@ -1,5 +1,5 @@
 import { describe, expect, test } from "@jest/globals";
-import { carrying } from "../../src/utils/index";
+import { carrying } from "../../src/index";
 
 describe("currying utility", () => {
     test("currying a function with 2 arguments", () => {
