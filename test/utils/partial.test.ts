@@ -1,5 +1,5 @@
 import { describe, expect, test } from "@jest/globals";
-import { partial } from "../../src/utils/index";
+import { partial } from "../../src/index";
 
 describe("partial application", () => {
     test("partial a function with 2 arguments", () => {
