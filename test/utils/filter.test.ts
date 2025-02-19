@@ -1,5 +1,5 @@
 import { describe, expect, test } from "@jest/globals";
-import { functionalFilter } from "../../src/utils/index";
+import { functionalFilter } from "../../src/index";
 
 describe("functional filter function", () => {
     test("filter an array with number values", () => {
@@ -7,7 +7,6 @@ describe("functional filter function", () => {
         const condition = (x: number) => x >= 3;
       
         const resultArr = functionalFilter(condition, arr);
-        console.log(resultArr);
         expect(resultArr).toEqual([5, 3, 5]);
     });
 
