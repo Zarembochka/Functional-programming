@@ -1,8 +1,8 @@
 import { functionalFilter } from "./filter";
 import { linearFold } from "./linearFold";
 
-function evenNumberFilter(value: number, index: number): boolean {
-    if (index % 2 === 0) {
+function evenNumberFilter(value: number): boolean {
+    if (value % 2 === 0) {
         return true;
     }
     return false;
