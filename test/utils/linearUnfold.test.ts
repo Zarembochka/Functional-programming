@@ -1,5 +1,5 @@
 import { describe, expect, test } from "@jest/globals";
-import { linearUnfold } from "../../src/utils/index";
+import { linearUnfold } from "../../src/index";
 
 describe("linear unfold utility", () => {
     test("linear unfold works on decrement callback", () => {
