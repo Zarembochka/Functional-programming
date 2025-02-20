@@ -13,10 +13,10 @@ export default [
   prettierRecommended,
   {
     rules: {
-      "no-console": "error",
-      "@typescript-eslint/no-explicit-any": "off",
-      "prettier/prettier": [
-        "error",
+      'no-console': 'error',
+      '@typescript-eslint/no-explicit-any': 'off',
+      'prettier/prettier': [
+        'error',
       ]
     }
   }
