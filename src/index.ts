@@ -6,3 +6,4 @@ export { linearFold } from "./utils/linearFold";
 export { linearUnfold } from "./utils/linearUnfold";
 export { averageOfEvenNumber } from "./utils/averageOfEvenNumbers";
 export { sumOfRandomNumbers } from "./utils/sumOfRandomNumbers";
+export { functionalFirst } from "./utils/first";
