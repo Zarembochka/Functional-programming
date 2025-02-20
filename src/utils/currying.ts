@@ -1,5 +1,7 @@
 //type for currying function
-type CurryFunction<T extends any[], R> = T extends [infer A, ...infer Rest] ? (arg: A) => CurryFunction<Rest, R> : R;
+type CurryFunction<T extends any[], R> = T extends [infer A, ...infer Rest]
+    ? (arg: A) => CurryFunction<Rest, R>
+    : R;
 
 //currying function
 //example: sum(1,2) = sum(1)(2);
